@@ -1,0 +1,7 @@
+This is how to flash a build based on ESP8266_4MB to run on a ESP8266 with only one MB flash
+
+
+esptool.py --port [/dev/ttyUSB0|COM1] write_flash \
+  --flash_freq 80m --flash_mode qio --flash_size 1M \
+  0x0000 "boot_v1.6.bin" 0x1000 espruino_esp8266_user1.bin \
+  0xFC000 esp_init_data_default.bin 0xFE000 blank.bin
