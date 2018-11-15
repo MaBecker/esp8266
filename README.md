@@ -25,7 +25,7 @@
 ### known chip ids
 
       4 Mega Bits / 512K Byte      = ID 4013h
-      8 Mega Bits /  1 Mega Byte   = ID 4014h
+      8 Mega Bits /  1 Mega Byte   = ID 4014h / 6014h
      16 Mega Bits /  2 Mega Bytes  = ID 4015h
      32 Mega Bits /  4 Mega Bytes  = ID 4016h
      64 Mega bits /  8 Mega Bytes  = ID 4017h
